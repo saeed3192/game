@@ -1,0 +1,148 @@
+a:link {
+  color: ffcc00;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: 9a2b0e;
+  background-color: transparent;
+  text-decoration: none;
+}
+.opacity.description {
+    direction: rtl;
+    width: 100%; /* عرض کامل */
+    color: #b3b3b3; /* رنگ متن */
+    text-align: center; /* وسط‌چین کردن متن */
+    padding: 0 200px; /* فاصله از حاشیه چپ و راست (20 پیکسل) */
+    box-sizing: border-box; /* شامل padding در محاسبه عرض */
+    font-weight: bold;font-family: 'B Titr'
+}
+
+body {
+    background-color: #1a1a1a; /* رنگ پس‌زمینه تیره */
+    color: #e0e0e0; /* رنگ متن روشن */
+    font-family: 'Arial', sans-serif; /* فونت ساده و مدرن */
+    margin: 0;
+    padding: 20px;
+}
+
+.navigation {
+    margin-bottom: 20px;
+}
+
+.navigationline {
+    display: flex;
+    justify-content: center; /* تراز افقی لینک‌ها */
+}
+
+.navlink {
+    margin: 0 10px;
+}
+
+.navlink a {
+    text-decoration: none;
+    color: #e0e0e0; /* رنگ لینک‌ها */
+    padding: 10px 15px;
+    border: 2px solid transparent; /* حاشیه شفاف */
+    border-radius: 50px;
+    transition: background-color 0.3s, border-color 0.3s; /* انیمیشن تغییر رنگ */
+}
+
+.navlink a:hover {
+    background-color: #007bff; /* رنگ پس‌زمینه هنگام هاور */
+    border-color: #0056b3; /* رنگ حاشیه هنگام هاور */
+}
+
+#frontcover {
+    text-align: center;
+}
+
+.coverimage {
+    width: 300px; /* عرض تصویر کاور */
+    border-radius: 10px; /* گوشه‌های گرد */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* ادغام حاشیه‌های جدول */
+    margin-top: 20px;
+}
+
+td {
+    
+    padding: 10px;
+    border-bottom: 1px solid #444; /* حاشیه زیر هر سلول */
+     text-align: center
+}
+
+.maintitle {
+    
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffcc00; /* رنگ عنوان */
+}
+.header {
+     width: 50%;
+    background-color: #007bff; /* رنگ پس‌زمینه هدر جدول */
+    color: white; /* رنگ متن هدر */
+    text-align: center;
+}
+
+.fieldlabel {
+    
+    font-weight: bold;
+}
+
+.fieldvalue {
+    
+    color: #b3b3b3; /* رنگ متن مقادیر */
+    
+}
+
+.opacity {
+    
+    opacity: 0.9; /* شفافیت */
+}
+
+.marginbackdrop {
+    
+    background-color: rgba(50, 50, 50, 0.8); /* پس‌زمینه با شفافیت */
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.details {
+    
+    margin-top: 20px;
+}
+
+
+.header {
+    
+    background-color: #444; /* رنگ پس‌زمینه سرستون */
+    color: #ffcc00; /* رنگ متن سرستون */
+    padding: 10px;
+    text-align: left;
+}
+
+.fieldlabel {
+    
+    font-weight: bold;
+}
+
+.fieldvalue {
+    
+    color: #b3b3b3; /* رنگ متن مقادیر */
+}
+
+.opacity {
+    
+    opacity: 0.9; /* شفافیت کمی برای عناصر */
+}
+
+.sidebox {
+    background-color: #2a2a2a; /* رنگ پس‌زمینه باکس جانبی */
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px;
+}
